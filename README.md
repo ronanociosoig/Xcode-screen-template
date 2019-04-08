@@ -25,3 +25,7 @@ For example: UsersTableView
 ![User Table View](UserTableView.png)
 
 The Wireframe always has 2 static calls. The first loads the storyboard, and returns the viewController instance. The second connects the presenter with the view Controller and instantiates the delegate and data source, and injects the data provider and actions class. 
+
+## Installing
+
+To install the template, download the project to the desktop and run the install script. It will copy over the template into your user file templates folder, and replace an exising version. 
