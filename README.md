@@ -1,5 +1,9 @@
 # Meranti template for Xcode
 
+![Meranti MVP](TemplateIcon@2x.png)
+
+Meranti MVP
+
 Meranti is the name given to the project architecture featured in the [In Tune](https://github.com/ronanociosoig/inTune) app. 
 
 ## Core Features: 
