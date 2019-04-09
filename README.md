@@ -1,24 +1,23 @@
 # Meranti template for Xcode
 
-![Meranti MVP](TemplateIcon@2x.png)
-
-Meranti MVP
+![Meranti MVP](MerantiLogo.png)
 
 Meranti is the name given to the project architecture featured in the [In Tune](https://github.com/ronanociosoig/inTune) app. 
 
-## Core Features: 
+These templates generate the source files that follow the conventions used in the Meranti architecture: 
 
-- AppController: The root controller of the app. 
-- Coordinator: [coordinator pattern](http://khanlou.com/2015/01/the-coordinator/) The class responsible for all that happens on the screen.
-- DataProvider: The data abstraction layer. 
-- Actions: A calss to encapsulate all the events that require external calls from a screen.
-- AppData: A global shared in-memory data reference.
+- Using a Wireframe struct to manage the DI. 
+- Following the Model-View-Presenter pattern. 
+- Extending the DataProvider class with a protocol that is injected into the module.
+- Extending the Actions class for any external calls. 
 
 ## New Screen
 
 When adding a new screen, it is best to create a folder and then select the appropriate template: View, TableView or CollectionView.
 
 The TableView template will generate all the files necessary for displaying the table view in the project and connected together. 
+
+The TableView will be in a UIViewController with a table view in a new storyboard file with the name set as the identifier. 
 
 For example: UsersTableView
 
